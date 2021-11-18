@@ -1,0 +1,19 @@
+.footer{
+    border-top: solid 1px grey;
+    background-color: #F0F2F9;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: .9rem;
+    .left{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        list-style: none;
+        // li{
+        //     margin-right: 1rem;
+        // }
+    }
+}

@@ -1,0 +1,23 @@
+ .contain{
+     border-bottom: rgb(223, 216, 216) solid 1px;
+     height: 4rem;
+ }
+ 
+ .wrapper{
+    margin-top: 10px;
+    display: flex;
+    border: solid 1px gray;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    border-radius: 5px;
+    padding: 0 5px;
+    position: absolute;
+    left: 2%;
+    
+    input{
+        outline: none;
+        border: none;
+    }
+}
+

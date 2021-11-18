@@ -1,0 +1,16 @@
+.selection-div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: #00293F;
+    .span{
+        padding: 1rem;
+        border-bottom: white solid 2px;
+        transition: .5s;
+        cursor: pointer;
+        &.selected{
+            border-bottom:solid 2px #00293F;
+        } 
+    }
+}

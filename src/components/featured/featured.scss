@@ -1,0 +1,32 @@
+.body{
+    background: #00293F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 1rem 0;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .card{
+            padding: 2rem;
+            .icon{
+                font-size: 4rem;
+                cursor: pointer;
+                transition: .5s;
+                &:hover{
+                    color: rgba(255, 255, 0, 0.582);
+                }
+            }
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+        }
+    }
+}

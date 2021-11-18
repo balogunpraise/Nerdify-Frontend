@@ -1,0 +1,49 @@
+.cover2{
+    width: 100%;
+    height: 70vh;
+    // background: linear-gradient(to right, rgba(0,0,0,.3) 0%, transparent 100%);
+    // background-size: cover;
+    // background-repeat: no-repeat;
+
+    .container2{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 2rem;
+        padding-top: 2rem;
+
+        .left2{
+            h1{
+                font-size: 1.5rem;
+                color:#00293F;
+            }
+            p{
+                color:#00293F;
+            }
+            button{
+                font-size: 1rem;
+                background: none;
+                padding: .5rem;
+                border: #00293F solid 2px;
+                background-color: #00293F;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: .5s;
+                color: rgb(218, 212, 212);
+                &:hover{
+                    background: none;
+                    color:#00293F;
+                }
+            }
+        }
+
+        .right2{
+            img{
+                height: 20rem;
+            }
+        }
+    }
+}

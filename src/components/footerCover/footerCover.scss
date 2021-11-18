@@ -1,0 +1,37 @@
+.cover-container{
+    background-color: #F0F2F9;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5rem;
+    padding: 2rem .5rem;
+    justify-content: space-around;
+    .app-section{
+        display: flex;
+        flex-direction: column;
+        img{
+            padding: .1rem 0;
+            cursor: pointer;
+        }
+    }
+
+    .sections{
+        padding: 0 2rem;
+        display: block;
+        .heading{
+            font-weight: bold;
+        }
+    
+        .parent{
+            display: flex;
+            flex-direction: column;
+            .child{
+                font-size: .8rem;
+            }
+            .social{
+                display: flex;
+                align-items: center;
+                font-size: .8rem;
+            }
+        }
+    }
+}
