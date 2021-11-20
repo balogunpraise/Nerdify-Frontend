@@ -17,7 +17,7 @@ const Sidebar = ({active, close}) => {
             <div className="navs">
                 <div className="download-types">
                 <Link style={{"cursor" : "pointer", "textDecoration":"none"}} to="/books">
-                    <p>Books</p>
+                    <p style={{"margin-left": "1rem"}}>Books</p>
                 </Link>
                             <ul>
                               

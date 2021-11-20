@@ -1,21 +1,19 @@
-import { BookmarkBorder, Star } from '@material-ui/icons';
+import { Book, BookmarkBorder,  Star } from '@material-ui/icons'
 import React from 'react'
-import './bookGrid.scss'
-import Data from '../repositories/Data'
+import './item.scss'
 
-const BookGrid =()=>{
+const Item = () => {
     return (
-        <div className="bookGrid">
+        <div className="carousel">
            
                 
-            {
-                Data.map(post=>{
-                    return(
+            
+                    
                         <div className="bookCard">
-                            <img src={post.imageUrl} alt=""></img>
+                            <img src="https://i2.wp.com/www.creativindie.com/wp-content/uploads/2020/06/51kgIYwbZL.jpg?resize=324%2C500&ssl=1" alt=""></img>
                             <div className="semi-details">
-                                <p className="title">{post.title}</p>
-                                <p>{post.author}</p>
+                                <p className="title">THE DEATH OF MAGIC</p>
+                                <p>jklkflkkjdkfo</p>
                                 <div className="revs">
                                     <div className="stars">
                                         <Star className="star"/>
@@ -29,13 +27,12 @@ const BookGrid =()=>{
                                 </div>
                             </div>
 
-                        )
-                })
-            }
+                    
+                
+            
 
         </div>
     )
-
 }
-    
-export default BookGrid
+
+export default Item

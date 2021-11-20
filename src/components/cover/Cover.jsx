@@ -1,3 +1,4 @@
+import { PlayArrow } from '@material-ui/icons'
 import React from 'react'
 import './cover.scss'
 
@@ -10,11 +11,12 @@ const Cover = () => {
                         Endless Variety of Books
                         
                     </h1>
-                    <p>Read from anywhere and at anytime</p>
-                    <button>Read Free For 30 Days</button>
+                    <p style={{"fontSize":"1.5rem"}}>Read from anywhere and at anytime</p>
+                    <button><PlayArrow/> Read Free For 30 Days</button>
+                    <p>Only N500/month. Cancel anytime.</p>
                 </div>
                 <div className="right">
-                    <img src="https://assets.website-files.com/5eb2bf8eb9c84371c8daea6a/5ec5356a330f284269a6fbd0_Book%20Exterior%201.png" alt="" />
+                    <img src="https://st.depositphotos.com/1001877/4800/i/600/depositphotos_48002027-stock-photo-education-concept-bookshelf-with-books.jpg" alt="" />
                 </div>
             </div>
                 

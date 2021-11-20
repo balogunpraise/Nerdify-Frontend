@@ -42,10 +42,10 @@ const FooterCover = () => {
             <div className="sections">
                 <p className="heading">Social</p>
                 <span className="parent">
-                    <span className="child" className="social"><Facebook/>Facebook</span>
-                    <span className="child" className="social"><Instagram/>Instagram</span>
-                    <span className="child" className="social"><Pinterest/>Pintrest</span>
-                    <span className="child" className="social"><Twitter/>Twitter</span>
+                    <span className="child social"><Facebook/>Facebook</span>
+                    <span className="child social"><Instagram/>Instagram</span>
+                    <span className="child social"><Pinterest/>Pintrest</span>
+                    <span className="child social"><Twitter/>Twitter</span>
                 </span>
             </div>
 

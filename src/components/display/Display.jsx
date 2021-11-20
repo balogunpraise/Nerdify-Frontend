@@ -1,10 +1,11 @@
 import React from 'react'
 import './display.scss'
+import { DoubleArrow } from '@material-ui/icons' 
 
 const Display = () => {
     return (
         <div className="display-container">
-            <h2>Get the best books</h2>
+            <h2 style={{"display":"flex", "alignItems":"center"}}><DoubleArrow/>Get the best books</h2>
             <div className="grid-container">
                 <div className="one"></div>
                 <div className="two"></div>

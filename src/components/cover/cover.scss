@@ -9,7 +9,8 @@
         align-items: center;
         align-items: center;
         padding: 8rem 1rem;
-        padding-bottom: 4rem;
+        padding-bottom: 3rem;
+        line-height: 2.3rem;
 
         .left{
             h1{
@@ -21,6 +22,7 @@
             }
             button{
                 font-size: 1.4rem;
+                display: flex;
                 background: none;
                 padding: .5rem;
                 border: #00293F solid 2px;
@@ -38,7 +40,7 @@
 
         .right{
             img{
-                height: 15rem;
+                height: 20rem;
             }
         }
     }

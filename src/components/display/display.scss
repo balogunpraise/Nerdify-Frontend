@@ -1,10 +1,10 @@
 .display-container{
     padding: 1rem 12rem;
     display: flex;
+    color:#00293F;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // background: #FAFBFD;
     background: white;
     .grid-container{
         width: 100%;
@@ -16,50 +16,93 @@
         .one{
             background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyXPUM6mq8ROi59TZCI9nQQ_rNZd33dZBZRQ&usqp=CAU");
             background-size: cover;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            cursor: pointer;
+            transition: .5s;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            }
+            
         }
         .two{
             background: url("https://images-na.ssl-images-amazon.com/images/I/51ERn6R5e1L._SX324_BO1,204,203,200_.jpg");
             background-size: cover;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            cursor: pointer;
+            transition: .5s;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            }
         }
         .three{
             background: url("https://images.bwbcovers.com/198/9781984801258.jpg");
             background-size: cover;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            cursor: pointer;
+            transition: .5s;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            }
         }
         .four{
             background: url("https://ik.imagekit.io/panmac/tr:q-75,di-placeholder_portrait_aMjPtD9YZ.jpg,w-350,pr-true,bl/edition/9781529081473.jpg");
             background-size: cover;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            cursor: pointer;
+            transition: .5s;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            }
         }
         .five{
             background: url("https://www.oberlo.com/media/1603897585-image12-1.jpg?w=1824&fit=max");
             background-size: cover;
+            cursor: pointer;
+            transition: .5s;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            }
         }
         .six{
             background: url("https://larb-main-img-cdn.azureedge.net/unsafe/1024x0/smart/filters:format(jpeg)/https%3A%2F%2Fdev.lareviewofbooks.org%2Fwp-content%2Fuploads%2F2021%2F11%2FThe-Book-of-Form-and-Emptiness.jpeg");
             background-size: cover;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            cursor: pointer;
+            transition: .5s;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            }
         }
         .seven{
             background: url("https://www.openbookpublishers.com/shopimages/products/thumbnails/1425.jpg");
             background-size: cover;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            cursor: pointer;
+            transition: .5s;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            }
         }
         .eight{
             background: url("https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1607103555-51wmv-2LokL.jpg?crop=1xw:0.993xh;center,top&resize=480:*");
             background-size: cover;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            cursor: pointer;
+            transition: .5s;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            }
         }
         .nine{
             background: url("https://www.basicbooks.com/wp-content/uploads/2019/10/9781541674097.jpg?fit=473%2C720");
-            background-size: cover;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            cursor: pointer;
+            background-size: cover;
+            transition: .5s;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            }
         }
         .ten{
             background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-feminist-books-redefining-realness-1520890945.jpg?crop=1xw:1xh;center,top&resize=480:*");
             background-size: cover;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            cursor: pointer;
+            transition: .5s;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            }
         }
     }
     
