@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Navbar2 from '../navbar2/Navbar2'
+import LoginNavbar from '../auth/LoginNavbar'
 import Footer from '../footer/Footer'
 import './auth.scss'
 import LoginBody from './LoginBody'
@@ -22,7 +22,7 @@ const Login = () => {
 
     return (
         <div className="auth-container">
-            <Navbar2/>
+            <LoginNavbar/>
             <div className="login-container">
                 <div className="login-left">
                     <h2 className="signin-title">Hey!</h2>
@@ -38,7 +38,7 @@ const Login = () => {
                     <button className="submit">Proceed</button>
                 </div>
             </div>
-            <Footer/>
+            {/* <Footer/> */}
             
         </div>
     )
