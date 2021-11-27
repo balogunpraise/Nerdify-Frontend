@@ -9,12 +9,12 @@ const Featured = () => {
             <div className="container">
                 <div className="card">
                     <ImportContacts className="icon"/>
-                    <p>Books</p>
+                    <p>Book</p>
                 </div>
 
                 <div className="card">
                     <HeadsetMic className="icon"/>
-                    <p>Audio Books</p>
+                    <p>Audio Book</p>
                 </div>
 
                 <div className="card">

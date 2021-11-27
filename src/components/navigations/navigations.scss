@@ -7,9 +7,15 @@
     justify-content: space-around;
     align-items: center;
     border-top: 1px solid rgb(226, 226, 226);
-    border-bottom: 1px solid rgb(226, 226, 226);
+    // border-bottom: 1px solid rgb(226, 226, 226);
     span{
         display: flex;
         align-items: center;
+        cursor: pointer;
+        transition: .5s;
+        
+    }
+    .change{
+        color: rgb(212, 181, 6);
     }
 }

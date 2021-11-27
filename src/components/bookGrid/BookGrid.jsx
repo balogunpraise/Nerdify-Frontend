@@ -1,18 +1,30 @@
 import { BookmarkBorder, Star } from '@material-ui/icons';
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 import './bookGrid.scss'
-import Data from '../repositories/Data'
+import axios from 'redaxios';
+import { Link } from '@material-ui/core';
 
-const BookGrid =()=>{
+
+
+
+const BookGrid =(props)=>{
+    const [state, setState] = useState([])
+    useEffect(() => {
+        axios.get("https://localhost:44361/Api/Book/all-books")
+        .then(response =>{
+            setState(response.data)
+        })
+    },[])
+    
+
     return (
-        <div className="bookGrid">
-           
-                
+        <div className="bookGrid">    
             {
-                Data.map(post=>{
+                state.map(post=>{
                     return(
-                        <div className="bookCard">
-                            <img src={post.imageUrl} alt=""></img>
+                        <a href={`/Book/${props.id}`} key={post.id}>
+                            <div className="bookCard">
+                            <img src={post.pictureUrl} alt=""></img>
                             <div className="semi-details">
                                 <p className="title">{post.title}</p>
                                 <p>{post.author}</p>
@@ -28,7 +40,7 @@ const BookGrid =()=>{
                                     </div>
                                 </div>
                             </div>
-
+                        </a>
                         )
                 })
             }

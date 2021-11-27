@@ -1,0 +1,35 @@
+.all{
+    color: grey;
+    padding: 1rem 2rem;
+    display: flex;
+    position: absolute;
+    background: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 6px;
+    gap: 2rem;
+    .selection{
+        display:flex;
+        align-items:center;
+        gap: .1rem;
+        .select-left{
+            .maths{
+                font-size: 2rem;
+                color: rgb(231, 94, 94);
+            }
+            .chem{
+                font-size: 2rem;
+                color: rgb(94, 204, 231);
+            }
+            .phy{
+                font-size: 2rem;
+                color: rgb(69, 78, 211);
+            }
+            .eco{
+                font-size: 2rem;
+                color: rgb(168, 211, 69);
+            }
+        }
+    }
+}
