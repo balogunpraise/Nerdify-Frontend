@@ -2,12 +2,12 @@ import { BookmarkBorder, Star } from '@material-ui/icons';
 import React,{useState, useEffect} from 'react'
 import './bookGrid.scss'
 import axios from 'redaxios';
-import { Link } from '@material-ui/core';
 
 
 
 
-const BookGrid =(props)=>{
+
+const BookGrid =()=>{
     const [state, setState] = useState([])
     useEffect(() => {
         axios.get("https://localhost:44361/Api/Book/all-books")
@@ -17,12 +17,23 @@ const BookGrid =(props)=>{
     },[])
     
 
+const getItemById = (id) =>{
+    const book = state.find(x => x.id === id)
+    return book;
+}
+
+const handleDetaisl =(id)=>{
+    const book = getItemById(id);
+    setDetail(book)
+}
+
+
     return (
         <div className="bookGrid">    
             {
                 state.map(post=>{
                     return(
-                        <a href={`/Book/${props.id}`} key={post.id}>
+                        <a href ={`book-details/${post.id}`} key={post.id} style={{"textDecoration":"none"}}>
                             <div className="bookCard">
                             <img src={post.pictureUrl} alt=""></img>
                             <div className="semi-details">
